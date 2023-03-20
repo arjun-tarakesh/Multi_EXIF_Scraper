@@ -53,7 +53,7 @@ def message(string):
         time.sleep(0.5)
 
 cwd = os.getcwd()
-os.chdir(os.path.join(cwd, "images"))
+os.chdir(os.path.join(cwd, "Images"))
 files = os.listdir()
 
 
